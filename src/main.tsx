@@ -5,7 +5,6 @@ import { Auth0Provider } from '@auth0/auth0-react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js'
 import { BrowserRouter } from 'react-router-dom';
-import './index.css'
 
 
 const domain = 'dev-5vsbff78trq3yxwz.us.auth0.com'
