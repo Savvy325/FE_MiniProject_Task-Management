@@ -1,30 +1,21 @@
-# React + TypeScript + Vite
+# **Mini Project: Task Management Application with Typescript Project**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+*Welcome to our Candle website where we create a user friendly environment and incorporate task management for our employees!*
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+## **Task Management Features**
 ```
+✅ A Home Page introducing our product with and easy to use navigation bar.
+      ✅ A carousel component displaying our candles.
+      ✅ And Cards giving a few details on each product.
+      ✅Each of us provided a piece to the NavBar 
+    
+✅ A Create Orders Page that allows an order to be created and marked completed, pending, or in progress .
+      ✅This is displayed using a form.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+✅ A Order Details Page where we use Cards to provide more details about each product.
+      ✅After the Order is created the user can then edit or delete the order on this page
+
+✅ A Register Page where new users can sign up using Auth0.
+
+✅ A Login Page where existing users can sign in using Auth0.
+```
